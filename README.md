@@ -9,4 +9,4 @@ Validation and Error Handling: The web application includes validation mechanism
 - **API Endpoint**: The application exposes an API endpoint that enables programmatic access for creating product quotations. Developers can integrate this endpoint with other systems or services to automate the quotation creation process.
 - **Email Notifications**: Upon successful submission of a quotation, an optional email notification can be sent to the user, confirming the receipt and providing further information or instructions.
 
-- ![image](https://github.com/riyasai22/Get-Product-Quotations/assets/80235375/34fb67f8-6aaa-4331-9295-1a6518cb5afb)
+![image](https://github.com/riyasai22/Get-Product-Quotations/assets/80235375/34fb67f8-6aaa-4331-9295-1a6518cb5afb)

@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Strait&display=swap");
+
+form {
+  width: 80%;
+  margin: 0 auto 100px;
+  padding: 20px 100px;
+  border-radius: 5px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #222020;
+}
+
+h2 {
+  font-family: "Strait";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  color: #2b4547;
+}
+h3 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: #2b4547;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  color: #2b4547;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  min-width: 220px;
+  width: 460px;
+  font-size: 14px;
+  color: #222020;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.short {
+  font-size: 14px;
+  width: 220px;
+}
+
+.body-container {
+  font-family: "Open Sans", sans-serif;
+}
+.top-img-container {
+  width: 100%;
+  height: 55vh;
+  position: relative;
+}
+.top-img-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+/* style="max-width: 70%" */
+.top-title {
+  font-family: "Strait", sans-serif;
+  position: absolute;
+  top: 30%;
+  font-weight: 500;
+  left: 5%;
+  color: white;
+  font-size: 56px;
+  padding: 0px 20px;
+  border-left: 4px solid white;
+}
+.bottom-half-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  /* background: linear-gradient(180deg, #143639 0%, #196975 100%); */
+}
+.box {
+  background-color: rgb(255, 255, 255);
+  /* background: linear-gradient(308.81deg, #04252d 0%, #06110c 100%); */
+  height: fit-content;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  margin: 30px 0px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+button[type="submit"].submit-quote {
+  background: #458773;
+  color: #e7efed;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 1rem auto;
+  letter-spacing: 2px;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+
+button[type="submit"]:hover {
+  background: #4c7d80;
+}

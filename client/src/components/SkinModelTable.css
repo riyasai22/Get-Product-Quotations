@@ -1,0 +1,54 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+thead th {
+  text-align: left;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #4b5250;
+  font-size: 14px;
+}
+
+tbody td {
+  padding: 10px;
+  font-size: 12px;
+
+  /* border-bottom: 1px solid #ccc; */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #21403aa9;
+}
+tbody tr:nth-child(odd) {
+  background-color: #31784d92;
+}
+
+select {
+  font-size: 12px;
+  padding: 6px 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #555;
+  width: 100%;
+  max-width: 300px;
+}
+
+input[type="number"] {
+  font-size: 12px;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #555;
+  width: 100%;
+  width: 100px;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #3875d7;
+}

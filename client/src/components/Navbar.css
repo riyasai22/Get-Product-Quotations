@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Strait&display=swap");
+
+.nav_container {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-items {
+  color: #858585;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.nav-ul.active {
+  background: #092225;
+}
+.toggleBtn {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.toggleBtn i {
+  font-size: 20px;
+  color: white;
+}
+
+.navbar {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  height: 72px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: transparent;
+}
+.logo {
+  width: 240px;
+  display: flex;
+  height: 30px;
+
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.logo-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: auto;
+  padding: 0px;
+}
+.logo-img img {
+  height: 100%;
+  width: 100%;
+}
+.logo-head {
+  position: absolute;
+  right: 0;
+  bottom: -15px;
+  color: white;
+  font-family: "Strait", sans serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  padding: 0px;
+}
+
+.logo-head a {
+  text-decoration: none;
+  color: white;
+}
+.toggleBtn i {
+  font-size: 24px;
+  color: rgb(113, 196, 168);
+}
+.nav-items {
+  align-self: center;
+  margin-top: 15px;
+}
+ul {
+  list-style: none;
+  display: flex;
+  font-weight: 500;
+  font-family: "Strait", sans serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+li {
+  padding: 10px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav_container {
+    flex-direction: column;
+  }
+  .toggleBtn {
+    display: block;
+  }
+  .nav-items {
+    display: none;
+  }
+  .nav_container {
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  .nav-items ul {
+    flex-direction: column;
+    background: #092225;
+  }
+  .nav-items ul li {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .nav-items.active {
+    position: absolute;
+    display: flex;
+    top: 49px;
+    z-index: 700;
+  }
+
+  .logo h2 {
+    font-family: "Strait", sans-serif;
+    letter-spacing: 4px;
+    color: white;
+    margin: 5px 0px 0px 20px;
+  }
+}

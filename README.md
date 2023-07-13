@@ -1,6 +1,7 @@
 # Get-Product-Quotations
 
 The product quotation creation feature enables users to generate quotations for products. This feature provides a user-friendly interface to input relevant information and specifications, allowing users to request quotations for the desired products.
+**Built Using**: React JS and Django REST Framework
 
 ## Key Functionality
 - **Create Quotations**: Users can fill out a form to enter the product requirements like contact information, product specifications, and desired quantities.
